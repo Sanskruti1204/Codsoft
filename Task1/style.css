@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f7fa;  /* light background */
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Hero */
+.hero {
+    height: 350px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.hero-text span {
+    color: yellow;
+}
+
+.hero-text p {
+    color: white;
+}
+
+.hero-text button {
+    padding: 10px 25px;
+    background: white;
+    color: #333;
+    border: none;
+    margin-top: 10px;
+}
+
+/* About */
+.about {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+    align-items: center;
+    background: white;
+}
+
+.about-img img {
+    width: 150px;   /* SMALL IMAGE */
+    border-radius: 50%;
+}
+
+.about-text {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Resume Button */
+.resume-btn {
+    margin-top: 10px;
+    background: #4facfe;
+    color: white;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    padding: 40px;
+}
+
+.skill-box {
+    display: inline-block;
+    background: #4facfe;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 30px;
+}
